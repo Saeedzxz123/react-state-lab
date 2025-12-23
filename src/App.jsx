@@ -134,7 +134,7 @@ function App() {
 
       <h2>Your Team</h2>
       {team.length === 0 ? (
-        <p>Pick some team members</p>
+        <p>Pick team members</p>
       ) : (
         team.map((fighter) => (
           <ul key={fighter.id}>
